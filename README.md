@@ -2,19 +2,18 @@ Reference:
 https://qiita.com/gsy0911/items/dbb64871480cf1a06acf
 https://teratail.com/questions/351513
 
-1. Pythonのインストール
-``` 
-$ pipenv install
-Warning: Python 3.7 was not found on your system...
-Would you like us to install CPython 3.7.12 with Pyenv? [Y/n]: Y
-```
-2. jupyter notebook listでtokenの取得
-http://localhost:8888/?token={このtokenをコピー} :: /workspace/gitpod_python_environment
-
-3. jupyter notebookを起動
+1.  jupyter notebookを起動
 ```
 $ jupyter notebook --ip=*
 ```
 
-4. 下記の「Password or token:」にtokenを貼り付ける
+2. Terminalの出力を確認してtokenをコピー
+```
+http://127.0.0.1:8888/?token=11076b9a99373ccd623e74bcf181e20111e04b918208e11d
+```
+
+3. 下記の「Password or token:」にtokenを貼り付ける
 ![](https://i.gyazo.com/3abc5f956419fdd06453674626c4f2ac.png)
+
+※貼り付けるのが面倒な場合はTerminalの出力で以下のようなものがあれば「Cmd」+クリックで遷移すればコピー貼り付けの手間がなくて楽
+http://127.0.0.1:8888/?token=11076b9a99373ccd623e74bcf181e20111e04b918208e11d
