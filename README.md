@@ -1,4 +1,4 @@
-Reference: 
+* Reference
 https://qiita.com/yumenomatayume/items/14de67dc64b3c47704e8
 
 1.  jupyter notebookを起動
